@@ -1,0 +1,77 @@
+.Our_coaches_card{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 25rem;
+    padding-bottom: 2rem;
+}
+.first_text{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.second_text{
+    font-size: 1.5rem;
+}
+.center_text_our_coaches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:900px) {
+    .Our_coaches_card:nth-child(even){
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 4rem 0rem 4rem 0rem;
+    }
+    .Our_coaches_card:nth-child(odd){
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .image{
+        padding: 0px;
+        width: 30rem;
+    }
+    .first_text{
+        padding: 0px;
+    }
+    .center_text_our_coaches{
+        display: flex;
+        flex-direction: column;
+        margin: 6rem 6rem;
+        align-items: center;
+    }
+}
+@media screen and (max-width:414px){
+    .Our_coaches_card:nth-child(even){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 0rem 0rem;
+
+    }
+    .Our_coaches_card:nth-child(odd){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image{
+        width: 100%;
+    }
+    .first_text{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .second_text{
+        font-size: 1.5rem;
+    }
+}
