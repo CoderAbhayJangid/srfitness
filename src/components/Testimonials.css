@@ -1,0 +1,11 @@
+.testimonials{
+    margin: 10rem 0rem;
+}
+.text_center_testimonials{
+    text-align: center;
+}
+.testimonials_cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

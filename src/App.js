@@ -3,6 +3,7 @@ import "./App.css";
 import About_us from "./components/About_us";
 import Our_coaches from "./components/Our_coaches";
 import Redbox from "./components/Redbox";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -10,10 +11,11 @@ const App = () => {
       <div className="container">
         <About_us />
       </div>
-      <Redbox />
       <div className="container">
         <Our_coaches />
+        <Testimonials/>
       </div>
+      <Redbox />
     </>
   );
 }

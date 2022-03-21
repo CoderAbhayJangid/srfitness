@@ -1,4 +1,5 @@
 import React from "react";
+import { Border_button } from "./Buttons";
 import "./Redbox.css"
 
 const Redbox = () => {
@@ -13,7 +14,7 @@ const Redbox = () => {
                     <p className="first_main_heading" id="color_redbox">
                         training today
                     </p>
-
+                    <Border_button/>
                 </div>
             </div>
         </>

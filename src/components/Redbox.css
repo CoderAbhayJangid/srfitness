@@ -18,4 +18,30 @@
 }
 .redbox_text_button{
     margin-left: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .redbox{
+        justify-content: center;
+        background-image: url("/public/images/redbox_tab.png");
+        background-position: center;
+        background-size: 80rem;
+        background-repeat: no-repeat;
+        align-items: flex-end;
+        height: 55rem;
+        border: 2px solid;
+    }
+    .redbox_image{
+        display: none;
+    }
+    .redbox_text_button{
+        margin-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0rem;
+    }
 }

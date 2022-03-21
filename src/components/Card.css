@@ -4,10 +4,22 @@
     width: 25rem;
     align-items: center;
     justify-content: center;
+    height: 33rem;
+    transition: 0.2s;
+}
+.Our_coaches_card:hover{
+    transform: scale(1.05);
+    translate: all 0.2s;
+    transition: 0.2s;
+
 }
 .image{
-    width: 25rem;
-    padding-bottom: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 0rem 1rem 2rem -0.7rem #0b99d64f;
+    border-radius: 2rem;
+    height: auto;
+    object-fit: cover;
 }
 .first_text{
     padding-bottom: 1rem;
@@ -74,4 +86,37 @@
     .second_text{
         font-size: 1.5rem;
     }
+}
+
+/* Testimonials_card css start */
+
+.Testimonials_card{
+    width: 35rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem;
+    text-align: center;
+    box-shadow: 0rem 1rem 2rem -0.7rem #0b99d64f;
+    border-radius: 3rem;
+}
+.test_image{
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+#test_name{
+    font-weight: 500;
+    margin-bottom: 8rem;
+}
+#test_down_name{
+    font-weight: 500;
+}
+.quote{
+    width: 5.5rem;
+    margin-bottom: 3rem;
+}
+#down_pera{
+    line-height: 2.5rem;
 }

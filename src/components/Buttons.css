@@ -1,0 +1,15 @@
+.border_button{
+    padding: 1rem 3rem;
+    border: 0.2rem solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.border_button:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    transition: 0.3s;
+}
