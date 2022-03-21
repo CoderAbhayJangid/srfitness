@@ -1,0 +1,21 @@
+.redbox{
+    width: 100%;
+    background-color: #A11216;
+    height: 45rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+.redbox_image{
+    width: 67.5rem;
+}
+#color_redbox{
+    color: white;
+    text-align: center;
+}
+.redbox_text_button{
+    margin-left: 9rem;
+}

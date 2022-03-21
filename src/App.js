@@ -1,12 +1,18 @@
 import React from "react";
 import "./App.css";
+import About_us from "./components/About_us";
 import Our_coaches from "./components/Our_coaches";
+import Redbox from "./components/Redbox";
 
 const App = () => {
-  return(
+  return (
     <>
       <div className="container">
-        <Our_coaches/>
+        <About_us />
+      </div>
+      <Redbox />
+      <div className="container">
+        <Our_coaches />
       </div>
     </>
   );
