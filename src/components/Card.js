@@ -1,5 +1,7 @@
 import React from "react";
-import "./Card.css"
+
+import "./Card.css";
+
 
 const Our_coaches_card = (data) => {
     return (
@@ -16,9 +18,9 @@ const Our_coaches_card = (data) => {
 }
 
 const Testimonials_cards = (data) => {
-    return(
+    return (
         <>
-            <div className = "Testimonials_card">
+            <div className="Testimonials_card">
                 <img src={data.images_links} alt="" className="test_image" />
                 <div className="first_text" id="test_name">{data.Testimonials_name}</div>
                 <img src="./images/quote.png" alt="" className="quote" />
@@ -29,4 +31,4 @@ const Testimonials_cards = (data) => {
     );
 }
 
-export { Our_coaches_card, Testimonials_cards };
+export { Our_coaches_card, Testimonials_cards};

@@ -1,0 +1,69 @@
+.Newslater{
+    text-align: center;
+    margin-top: 15rem;
+}
+.email_button{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+.input_fil{
+    width: 50vw;
+    padding: 3rem 3rem;
+    font-size: 2rem;
+    border-radius: 2rem 0rem 0rem 2rem;
+    background-color: #7f7f7f2f;
+    outline-color: #0B9AD6;
+    border: none;
+}
+#sub_heading_email{
+    margin-bottom: 9rem;
+    margin-top: 3rem;
+}
+.Subscribe{
+    padding: 2rem 3rem;
+    font-size: 2.2rem;
+    border: none;
+    background-color: #0B9AD6;
+    border-radius: 0rem 2rem 2rem 0rem;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button_image{
+    width: 3rem;
+    padding-left: 0.5rem;
+}
+
+@media screen and (max-width:900px) {
+    .email_button{
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Subscribe{
+        padding: 2rem 0rem;
+        font-size: 2rem;
+        border-radius: 2rem 2rem 2rem 2rem;
+        width: 20rem;
+        margin-top: 3.5rem;
+    }
+    .input_fil{
+        width: 65rem;
+        border-radius: 2rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+    .button_image{
+        width: 3rem;
+        padding-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .input_fil{
+        width: 35rem;
+    }
+}

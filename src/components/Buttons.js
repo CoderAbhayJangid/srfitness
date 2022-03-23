@@ -11,4 +11,14 @@ const Border_button = () => {
     );
 }
 
-export {Border_button};
+const Pricing_button = () => {
+    return(
+        <>
+            <div>
+                <button className="Pricing_button">Book</button>
+            </div>
+        </>
+    );
+}
+
+export {Border_button, Pricing_button};

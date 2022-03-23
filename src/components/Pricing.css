@@ -1,0 +1,78 @@
+.Pricing{
+    text-align: center;
+}
+.Pricing_card{
+    width: 35rem;
+    padding: 2rem 3.5rem;
+    border-radius: 3rem;
+    box-shadow: 0rem 1rem 2rem -0.7rem #0b99d64f;
+    transition: 0.2s;
+    margin-top: 5rem;
+
+}
+.Pricing_card:hover{
+    transform: scale(1.05);
+    translate: all 0.2s;
+    transition: 0.2s;
+
+}
+.duration{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    border-bottom: 2.2px solid #00000023;
+    padding-bottom: 3rem;
+}
+.duration_amount{
+    margin-bottom: 15rem;
+    border-bottom: 2.2px solid #00000023;
+    padding-bottom: 3rem;
+
+
+}
+.amount{
+    font-size: 5rem;
+    font-weight: bold;
+    
+}
+.per_duration{
+    font-size: 2rem;
+}
+.features{
+    list-style: none;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+#uniq{
+    border: 1.5px solid #0B9AD6;
+    padding: 0rem 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#d_uniq{
+    background-color: #0B9AD6;
+    padding: 2rem 0rem;
+    width: 35rem;
+    border-radius: 3rem 3rem 0rem 0rem;
+    color: white;
+    border-bottom: none;
+}
+.center_div_pricing{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
+.margin_pricing{
+    padding: 2rem 4rem;
+    width: 35rem;
+}
+
+#features_4{
+    font-weight: bold;
+}

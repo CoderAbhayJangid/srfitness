@@ -13,3 +13,21 @@
     background-color: rgba(255, 255, 255, 0.116);
     transition: 0.3s;
 }
+
+/* pricing button css start */
+
+.Pricing_button{
+    padding: 1.4rem 4rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #0B9AD6;
+    color: white;
+    transition: 0.3s;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.Pricing_button:hover{
+    background-color: #087eb1;
+    transition: 0.3s;
+}

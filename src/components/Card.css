@@ -6,6 +6,7 @@
     justify-content: center;
     height: 33rem;
     transition: 0.2s;
+    border:  2px solid green;
 }
 .Our_coaches_card:hover{
     transform: scale(1.05);
@@ -67,7 +68,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0rem 0rem 0rem 0rem;
+        height: auto;
 
     }
     .Our_coaches_card:nth-child(odd){
@@ -75,6 +76,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: auto;
+
+
     }
     .image{
         width: 100%;
@@ -101,6 +105,7 @@
     text-align: center;
     box-shadow: 0rem 1rem 2rem -0.7rem #0b99d64f;
     border-radius: 3rem;
+    margin-top: 5rem;
 }
 .test_image{
     width: 15rem;
